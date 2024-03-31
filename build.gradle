@@ -11,8 +11,8 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.findByName('release')
                 groupId = 'io.github.sachithariyathilaka'
-                artifactId = 'auth-pref'
-                version = '0.0.1'
+                artifactId = 'auth-preference'
+                version = '1.0.0'
             }
         }
     }
