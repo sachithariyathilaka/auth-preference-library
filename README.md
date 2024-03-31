@@ -13,7 +13,7 @@ Shared Preference library for save and fetch user data and user headers. You can
 
 * ### Release Note
 
-  * Release: 2.0.0
+  * Release: 1.0.0
   * Date: 2024/03/24
   * Module: Auth Preference Library
   * Changes
