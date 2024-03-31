@@ -2,4 +2,18 @@
 plugins {
 alias(libs.plugins.androidApplication) apply false
     alias(libs.plugins.androidLibrary) apply false
+    id 'maven-publish'
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.findByName('release')
+                groupId = 'io.github.sachithariyathilaka'
+                artifactId = 'auth-pref'
+                version = '0.0.1'
+            }
+        }
+    }
 }
