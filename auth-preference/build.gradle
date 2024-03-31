@@ -33,17 +33,3 @@ dependencies {
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
 }
-
-publishing {
-    publications {
-        release(MavenPublication) {
-            groupId = 'io.github.sachithariyathilaka'
-            artifactId = 'auth-preference'
-            version = '1.0.0'
-
-            afterEvaluate {
-                from components.release
-            }
-        }
-    }
-}
