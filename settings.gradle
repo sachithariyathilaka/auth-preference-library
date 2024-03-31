@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "auth-preference-library"
 include ':app'
-include ':auth-preference-library'
+include ':auth-preference'
