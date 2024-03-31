@@ -17,6 +17,6 @@ Shared Preference library for save and fetch user data and user headers. You can
   * Date: 2024/03/24
   * Module: Auth Preference Library
   * Changes
-    * Store and retrieve the authentication related user details.
-    * Store and retrieve the user headers related data.
+    * Develop the store and retrieve the authentication related user details.
+    * Develop the store and retrieve the user headers related data.
 
