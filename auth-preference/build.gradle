@@ -1,9 +1,10 @@
 plugins {
     alias(libs.plugins.androidLibrary)
+    id 'maven-publish'
 }
 
 android {
-    namespace 'io.github.sachithariyathilaka'
+    namespace 'com.github.sachithariyathilaka'
     compileSdk 34
 
     defaultConfig {
@@ -20,8 +21,16 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    publishing {
+        publishing {
+            singleVariant("release") {
+                withSourcesJar()
+                withJavadocJar()
+            }
+        }
     }
 }
 
@@ -32,4 +41,18 @@ dependencies {
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
+}
+
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId = 'com.github.sachithariyathilaka'
+            artifactId = 'auth-preference'
+            version = '1.0.0'
+
+            afterEvaluate {
+                from components.release
+            }
+        }
+    }
 }

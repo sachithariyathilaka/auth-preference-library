@@ -1,4 +1,4 @@
-package io.github.sachithariyathilaka.resource;
+package com.github.sachithariyathilaka.resource;
 
 /**
  * User detail resource class;

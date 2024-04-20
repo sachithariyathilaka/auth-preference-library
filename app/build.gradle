@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'io.github.sachithariyathilaka'
+    namespace 'com.github.sachithariyathilaka'
     compileSdk 34
 
     defaultConfig {
-        applicationId "io.github.sachithariyathilaka"
+        applicationId "com.github.sachithariyathilaka"
         minSdk 24
         targetSdk 34
         versionCode 1

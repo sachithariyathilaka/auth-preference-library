@@ -1,4 +1,4 @@
-package io.github.sachithariyathilaka;
+package com.github.sachithariyathilaka;
 
 import static org.junit.Assert.assertNotNull;
 
@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
 import java.util.Collections;
 import java.util.List;
 
-import io.github.sachithariyathilaka.resource.Header;
-import io.github.sachithariyathilaka.resource.UserDetail;
+import com.github.sachithariyathilaka.resource.Header;
+import com.github.sachithariyathilaka.resource.UserDetail;
 
 /**
  * Instrumented test for the library.

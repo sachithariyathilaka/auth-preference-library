@@ -1,4 +1,4 @@
-package io.github.sachithariyathilaka;
+package com.github.sachithariyathilaka;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,8 +6,8 @@ import android.content.SharedPreferences;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.github.sachithariyathilaka.resource.Header;
-import io.github.sachithariyathilaka.resource.UserDetail;
+import com.github.sachithariyathilaka.resource.Header;
+import com.github.sachithariyathilaka.resource.UserDetail;
 
 /**
  * Main class for the library.

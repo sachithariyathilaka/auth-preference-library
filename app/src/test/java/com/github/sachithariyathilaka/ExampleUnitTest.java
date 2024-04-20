@@ -1,4 +1,4 @@
-package io.github.sachithariyathilaka;
+package com.github.sachithariyathilaka;
 
 import org.junit.Test;
 
