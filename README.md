@@ -9,12 +9,12 @@ Shared Preference library for save and fetch user data and user headers. You can
   * Gradle
  
 * ### Configuration
-  * https://sachithariyathilaka.medium.com/auth-preference-android-library-1adb605f101c
+  * [Read on Medium](https://sachithariyathilaka.medium.com/auth-preference-android-library-1adb605f101c)
 
 * ### Release Note
 
-  * Release: 1.0.0
-  * Date: 2024/03/24
+  * Version: 1.0.0
+  * Release Date: 2024/03/24
   * Module: Auth Preference Library
   * Changes
     * Develop the store and retrieve the authentication related user details.
